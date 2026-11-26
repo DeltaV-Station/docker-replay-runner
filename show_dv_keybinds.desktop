@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Show Replay Keybinds
+Exec=/usr/local/bin/show_dv_keybinds.sh
+Categories=Utility
