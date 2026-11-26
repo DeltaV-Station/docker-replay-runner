@@ -1,0 +1,44 @@
+version: 1
+binds:
+- mod1: Alt
+  key: Num1
+  type: Command
+  function: cvar net.tickrate 30
+- mod1: Alt
+  key: Num2
+  type: Command
+  function: cvar net.tickrate 60
+- mod1: Alt
+  key: Num3
+  type: Command
+  function: cvar net.tickrate 90
+- mod1: Alt
+  key: Num4
+  type: Command
+  function: cvar net.tickrate 240
+- mod1: Alt
+  key: Space
+  type: Command
+  function: replay_toggle
+- mod1: Alt
+  key: A
+  type: Command
+  function: replay_skip -00:00:05
+- mod1: Alt
+  mod2: Shift
+  key: A
+  type: Command
+  function: replay_skip -00:01:00
+- mod1: Alt
+  key: D
+  type: Command
+  function: replay_skip 00:00:05
+- mod1: Alt
+  mod2: Shift
+  key: D
+  type: Command
+  function: replay_skip 0:01:00
+- mod1: Alt
+  key: F
+  type: Command
+  function: togglelight

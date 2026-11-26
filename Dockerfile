@@ -56,6 +56,8 @@ SHELL ["/bin/sh", "-c"]
 USER root
 RUN selkies-privileged-files restore
 
+COPY --chown=1000:1000 ["keybinds.yml", "/home/ubuntu/.local/share/Space Station 14/data/keybinds.yml"]
+
 COPY desktop-run.sh /etc/service/desktop/run
 COPY prepare.sh /usr/local/bin/prepare.sh
 RUN chown -R 1000:1000 /etc/service/desktop /usr/local/bin/prepare.sh && \
