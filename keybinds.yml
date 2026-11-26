@@ -20,7 +20,7 @@ binds:
   key: Q
   type: Command
   function: cvar net.tickrate 240
-- mod1: Alt
+- mod1: Shift
   key: Space
   type: Command
   function: replay_toggle
