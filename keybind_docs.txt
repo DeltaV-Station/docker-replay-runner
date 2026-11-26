@@ -2,6 +2,7 @@
 The following keybinds have been automatically applied to the Space Station 14 installation.
 
 -- Controlling speed
+Alt+Space - Pause/Resume Playback
 Alt+1 - 1x Speed (30 TPS)
 Alt+2 - 2x Speed (60 TPS)
 Alt+3 - 3x Speed (90 TPS)
