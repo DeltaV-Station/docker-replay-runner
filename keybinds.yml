@@ -15,6 +15,10 @@ binds:
 - mod1: Alt
   key: Num4
   type: Command
+  function: cvar net.tickrate 120
+- mod1: Alt
+  key: Q
+  type: Command
   function: cvar net.tickrate 240
 - mod1: Alt
   key: Space

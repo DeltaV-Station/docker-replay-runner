@@ -57,6 +57,9 @@ USER root
 RUN selkies-privileged-files restore
 
 COPY --chown=1000:1000 ["keybinds.yml", "/home/ubuntu/.local/share/Space Station 14/data/keybinds.yml"]
+COPY --chmod=755 ["show_dv_keybinds.sh", "/usr/local/bin/show_dv_keybinds.sh"]
+COPY --chmod=644 ["show_dv_keybinds.desktop", "/usr/share/applications/show_dv_keybinds.desktop"]
+COPY ["keybind_docs.txt", "/etc/deltav/keybind_docs.txt"]
 
 COPY desktop-run.sh /etc/service/desktop/run
 COPY prepare.sh /usr/local/bin/prepare.sh

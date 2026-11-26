@@ -14,5 +14,7 @@ wait "$DOWNLOAD_PID"
 
 kill "$POPUP_PID"
 
+show_dv_keybinds.sh &
+
 starlight-launcher
 kill 1
